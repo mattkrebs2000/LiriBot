@@ -10,9 +10,7 @@ In this assignment, you will make LIRI. LIRI is like iPhone's SIRI. However, whi
 
 2. Make a new GitHub repository called liri-node-app and clone it to your computer.
 
-3. To retrieve the data that will power this app, you'll need to send requests to the Twitter, Spotify and OMDB APIs. You'll find these Node packages crucial for your assignment.
-
-   * [Twitter](https://www.npmjs.com/package/twitter)
+3. To retrieve the data that will power this app, you'll need to send requests to Spotify and OMDB APIs. You'll find these Node packages crucial for your assignment.
    
    * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
    
@@ -41,13 +39,6 @@ node_modules
 ```js
 console.log('this is loaded');
 
-exports.twitter = {
-  consumer_key: process.env.TWITTER_CONSUMER_KEY,
-  consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
-  access_token_key: process.env.TWITTER_ACCESS_TOKEN_KEY,
-  access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
-};
-
 exports.spotify = {
   id: process.env.SPOTIFY_ID,
   secret: process.env.SPOTIFY_SECRET
@@ -62,57 +53,37 @@ exports.spotify = {
 SPOTIFY_ID=your-spotify-id
 SPOTIFY_SECRET=your-spotify-secret
 
-# Twitter API keys
 
-TWITTER_CONSUMER_KEY=your-twitter-consumer-key
-TWITTER_CONSUMER_SECRET=your-twitter-consumer-secret
-TWITTER_ACCESS_TOKEN_KEY=your-access-token-key
-TWITTER_ACCESS_TOKEN_SECRET=your-twitter-access-token-secret
-
-```
 
 * This file will be used by the `dotenv` package to set what are known as environment variables to the global `process.env` object in node. These are values that are meant to be specific to the computer that node is running on, and since we are gitignoring this file, they won't be pushed to github &mdash; keeping our API key information private.
 
 * If someone wanted to clone your app from github and run it themselves, they would need to supply their own `.env` file for it to work.
 
-5. Get your Twitter API keys by following these steps:
 
-   * Step One: Visit <https://apps.twitter.com/app/new>
-   
-   * Step Two: Fill out the form with dummy data. Type `http://google.com` in the Website input. Don't fill out the Callback URL input. Then submit the form.
-   
-   * Step Three: On the next screen, click the Keys and Access Tokens tab to get your consume key and secret. 
-     
-     * Copy and paste them into your .env file, replacing the `your-twitter-consumer-key` and `your-twitter-consumer-secret` placeholders.
-   
-   * Step Four: At the bottom of the page, click the `Create my access token` button to get your access token key and secret. 
-     
-     * Copy the access token key and secret displayed at the bottom of the next screen. Paste them into your .env file, replacing the placeholders for `your-twitter-access-token-key` and `your-twitter-access-token-secret`.
-
-6. Make a file called `random.txt`.
+5. Make a file called `random.txt`.
 
    * Inside of `random.txt` put the following in with no extra characters or white space:
      
      * spotify-this-song,"I Want it That Way"
 
-7. Make a JavaScript file named `liri.js`.
+6. Make a JavaScript file named `liri.js`.
 
-8. At the top of the `liri.js` file, add code to read and set any environment variables with the dotenv package:
+7. At the top of the `liri.js` file, add code to read and set any environment variables with the dotenv package:
 
 ```js
 require("dotenv").config();
 ```
 
-9. Add the code required to import the `keys.js` file and store it in a variable.
+8. Add the code required to import the `keys.js` file and store it in a variable.
   
 * You should then be able to access your keys information like so
 
   ```js
   var spotify = new Spotify(keys.spotify);
-  var client = new Twitter(keys.twitter);
+
   ```
 
-10. Make it so liri.js can take in one of the following commands:
+9. Make it so liri.js can take in one of the following commands:
 
     * `my-tweets`
 
@@ -144,7 +115,7 @@ require("dotenv").config();
    
    * You will utilize the [node-spotify-api](https://www.npmjs.com/package/node-spotify-api) package in order to retrieve song information from the Spotify API.
    
-   * Like the Twitter API, the Spotify API requires you sign up as a developer to generate the necessary credentials. You can follow these steps in order to generate a **client id** and **client secret**:
+   * The Spotify API requires you sign up as a developer to generate the necessary credentials. You can follow these steps in order to generate a **client id** and **client secret**:
 
    * Step One: Visit <https://developer.spotify.com/my-applications/#!/>
    
