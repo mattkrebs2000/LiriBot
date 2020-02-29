@@ -52,30 +52,78 @@ var band=specificRequest;
             console.log("++++++++++++++++++++++++++++++++++");
             console.log("Name of the Venue: "+response.data[0].venue.name +"\r\n");
             console.log("Venue Location: " + response.data[0].venue.city + response.data[0].venue.region + "\r\n");
-            console.log("Date of the Event: " + moment(response.data[0].datetime).format(MM-DD-YYYY) + "\r\n");
+
+            console.log("Date of the Event: " + moment(response.data[0].datetime).format('MM-DD-YYYY')+ "\r\n");
+
+
             var logConcert = "------ Begin Concert Log Entry -------" + "\n Name of the Musician: " + band + "\r\n";
 
             fs.appendFile("log.txt", logConcert, function (err) {
                 if (err) throw err; 
 
+            });
+        }
+    )
+};
 
 
+function getOMDB(movie) {
+
+    var movie = specificRequest;
+    
+  
+    if (!movie) {
+
+        // Why won't this Mr. Nobody process? 
+
+        movie = "Mr. Nobody";
+        console.log(movie);
+    };
+
+    var moviequeryURL = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
+
+    axios.request(moviequeryURL).then(
+
+    function(response) {
+
+        console.log("Title of the Movie: "+ response.data.Title + "\r\n");
+        console.log("Year the movie came out: " + response.data.Year + "\r\n");
+        console.log("IMDB rating of the Movie: " + response.data.imdbRating + "\r\n");
+        console.log("Rotten Tomatoes rating of the movie: " + response.data.Ratings[1].Value + "\r\n");
+        console.log("Country where the movie was produced: " + response.data.Country + "\r\n");
+        console.log("Language of the Movie: " + response.data.Language + "\r\n");
+        console.log("Plot of the Movie: " + response.data.Plot + "\r\n");
+        console.log("Actors in the Movie: " + response.data.Actors + "\r\n");
+
+
+            var logMovie = "------ Begin Movie Log Entry -------" + "\n Name of the Movie: " + movie + "\r\n";
+
+            fs.appendFile("log.txt", logMovie, function (err) {
+                if (err) throw err;
 
             });
-        
-          
+    });
+    }
+
+function getSpotify(song) {
+    var song= specificRequest;
+
+    if (!song) {
+
+        song = "Ace of Base";
+        console.log(song);
+    };
 
 
-       
-       
-       
-        }
-       
 
-    )
-    
-};
-runLiri();
+
+
+}
+
+
+
+
+runLiri(command, specificRequest);
 
 
 

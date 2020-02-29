@@ -1,0 +1,12 @@
+------ Begin Concert Log Entry -------
+ Name of the Musician: celine dion
+------ Begin Concert Log Entry -------
+ Name of the Musician: celine dion
+------ Begin Concert Log Entry -------
+ Name of the Musician: celine dion
+------ Begin Movie Log Entry -------
+ Name of the Movie: Remember the Titans
+------ Begin Movie Log Entry -------
+ Name of the Movie: Mr. Nobody
+------ Begin Movie Log Entry -------
+ Name of the Movie: Superman
