@@ -1,12 +1,156 @@
------- Begin Concert Log Entry -------
- Name of the Musician: celine dion
------- Begin Concert Log Entry -------
- Name of the Musician: celine dion
------- Begin Concert Log Entry -------
- Name of the Musician: celine dion
+
 ------ Begin Movie Log Entry -------
- Name of the Movie: Remember the Titans
------- Begin Movie Log Entry -------
- Name of the Movie: Mr. Nobody
------- Begin Movie Log Entry -------
- Name of the Movie: Superman
+
+Name of the Movie: superman
+
+Year the movie came out: 1978
+
+IMDB rating of the Movie: 7.3
+
+Rotten Tomatoes rating of the movie: 94%
+
+Actors in the Movie: Marlon Brando, Gene Hackman, Christopher Reeve, Ned Beatty
+
+Plot of the Movie: An alien orphan is sent from his dying planet to Earth, where he grows up to become his adoptive home's first and greatest superhero.
+
+======End Movie Log Entry======
+
+========= Begin Spotify Log Entry ==========
+
+Artist: Michael Jackson
+
+Song Name: Beat It - Single Version
+
+ Preview Link: https://api.spotify.com/v1/tracks/1OOtq8tRnDM8kG2gqUPjAj
+
+Album Name: Thriller 25 Super Deluxe Edition
+
+======End Spotify Log Entry======
+
+------ Begin Concert Log Entry -------
+Name of the Musician: bon jovi
+
+Name of the Venue: Tacoma Dome
+
+Venue Location: Tacoma, WA
+
+Date of the Event: 06-10-2020
+======End Concert Log Entry======
+
+---------- Begin Spotify Log Entry ---------
+
+Artist: Michael Jackson
+
+Song Name: Beat It - Single Version
+
+ Preview Link: https://api.spotify.com/v1/tracks/1OOtq8tRnDM8kG2gqUPjAj
+
+Album Name: Thriller 25 Super Deluxe Edition
+
+======End Spotify Log Entry======
+
+------ Begin Concert Log Entry -------
+Name of the Musician: bon jovi
+
+Name of the Venue: Tacoma Dome
+
+Venue Location: Tacoma, WA
+
+Date of the Event: 06-10-2020
+======End Concert Log Entry======
+
+---------- Begin Spotify Log Entry ---------
+
+Artist: Ace of Base
+
+Song Name: The Sign
+
+ Preview Link: https://api.spotify.com/v1/tracks/0hrBpAOgrt8RXigk83LLNE
+
+Album Name: The Sign (US Album) [Remastered]
+
+======End Spotify Log Entry======
+
+---------- Begin Spotify Log Entry ---------
+
+Artist: Ace of Base
+
+Song Name: The Sign
+
+ Preview Link: https://api.spotify.com/v1/tracks/0hrBpAOgrt8RXigk83LLNE
+
+Album Name: The Sign (US Album) [Remastered]
+
+======End Spotify Log Entry======
+
+---------- Begin Spotify Log Entry ---------
+
+Artist: Ace of Base
+
+Song Name: The Sign
+
+ Preview Link: https://api.spotify.com/v1/tracks/0hrBpAOgrt8RXigk83LLNE
+
+Album Name: The Sign (US Album) [Remastered]
+
+======End Spotify Log Entry======
+
+---------- Begin Spotify Log Entry ---------
+
+Artist: Ace of Base
+
+Song Name: The Sign
+
+ Preview Link: https://api.spotify.com/v1/tracks/0hrBpAOgrt8RXigk83LLNE
+
+Album Name: The Sign (US Album) [Remastered]
+
+======End Spotify Log Entry======
+
+---------- Begin Spotify Log Entry ---------
+
+Artist: Ace of Base
+
+Song Name: The Sign
+
+ Preview Link: https://api.spotify.com/v1/tracks/0hrBpAOgrt8RXigk83LLNE
+
+Album Name: The Sign (US Album) [Remastered]
+
+======End Spotify Log Entry======
+
+---------- Begin Spotify Log Entry ---------
+
+Artist: Ace of Base
+
+Song Name: The Sign
+
+ Preview Link: https://api.spotify.com/v1/tracks/0hrBpAOgrt8RXigk83LLNE
+
+Album Name: The Sign (US Album) [Remastered]
+
+======End Spotify Log Entry======
+
+---------- Begin Spotify Log Entry ---------
+
+Artist: Ace of Base
+
+Song Name: The Sign
+
+ Preview Link: https://api.spotify.com/v1/tracks/0hrBpAOgrt8RXigk83LLNE
+
+Album Name: The Sign (US Album) [Remastered]
+
+======End Spotify Log Entry======
+
+---------- Begin Spotify Log Entry ---------
+
+Artist: Backstreet Boys
+
+Song Name: I Want It That Way
+
+ Preview Link: https://api.spotify.com/v1/tracks/6e40mgJiCid5HRAGrbpGA6
+
+Album Name: The Hits--Chapter One
+
+======End Spotify Log Entry======
