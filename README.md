@@ -5,6 +5,6 @@ Clearly state the problem the app is trying to solve (i.e. what is it doing and 
 
 Liri is a Javascript Application run in node that allows for users to access information about concerts (when a particular band name is entered) songs (when a particular song name is entered) and movies (when a particular movie name is entered). Liri also showcases how one of these unique tasks (in this case -requesting songs) can be accessed indirectly by accessing information from another document and then responding to it. 
 
-Check out this video to see how this app is structured and how it works. . .
+Check out [this YouTube Video!](https://youtu.be/UJJ3NZjYYas)!
 
 
